@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Nazwa aplikacji -->
+    <AssemblyName>VirusCheck</AssemblyName>
+    <RootNamespace>VirusCheck</RootNamespace>
+
+    <Product>VirusCheck</Product>
+    <Title>VirusCheck</Title>
+    <Description>VirusCheck - narzędzie do sprawdzania bezpieczeństwa plików za pomocą Windows Defender.</Description>
+    <Company>VirusCheck</Company>
+
+    <!-- Publikacja na Windows 64-bit -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+
+    <!-- Tryb Release -->
+    <Configuration>Release</Configuration>
+
+    <!-- Jeden plik EXE -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+
+    <!-- Wersja -->
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+
+  </PropertyGroup>
+
+</Project>
